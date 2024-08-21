@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.app {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.home, .browse-characters, .character-details, .comics, .not-found {
+  padding: 2rem;
+}
+
+.browse-characters ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.browse-characters li {
+  margin-bottom: 1rem;
+}
+
+.character-details img {
+  width: 100px;
+  height: auto;
+}
